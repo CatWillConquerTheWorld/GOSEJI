@@ -73,7 +73,7 @@ public class explore : MonoBehaviour
         //페드 아웃? 암튼 화면 까맣게 만든 이후 전투 씬으로 넘어가기
         yield return new WaitForSeconds(1.5f);
         catObject.gameObject.SetActive(false);
-        //SceneManager.LoadScene("Exploration");
+        SceneManager.LoadScene("Battle2");
     }
 
     IEnumerator NoCat()
