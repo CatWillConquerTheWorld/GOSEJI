@@ -17,7 +17,8 @@ public class manage_shop_items : MonoBehaviour
     public Button purchase_btn;
     public Button apply_btn;
     public int mymoney;
-    public TextMeshPro itemName_txt;
+    public TMP_Text itemName_txt;
+    
 
     void Start()
     {
@@ -28,7 +29,7 @@ public class manage_shop_items : MonoBehaviour
         // itemName_txt.text = itemName.ToString();
         purchase_btn.gameObject.SetActive(true);
         apply_btn.gameObject.SetActive(false);
-
+        itemName_txt.text = itemName;
 
         Debug.Log("이 아이템의 이름 : " + itemName + "이고, 가격은 " + itemPrice + "입니다. 내 재산 : " + mymoney);
     }
