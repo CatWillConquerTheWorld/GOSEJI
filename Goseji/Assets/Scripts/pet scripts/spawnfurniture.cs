@@ -12,6 +12,9 @@ public class spawnfurniture : MonoBehaviour
     private GameObject furniturePrefab;
 
     private SpriteRenderer spriterenderer;
+
+
+
     void Start()
     {
         instant_fur();
@@ -39,6 +42,8 @@ public class spawnfurniture : MonoBehaviour
             createFurniture.PrintfurnitureStatus();
         }
     }
+
+
 
 
     // Âü°í https://velog.io/@kimwonseop/%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%84%B0%EB%B8%94-%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8ScriptableObject
